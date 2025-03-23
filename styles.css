@@ -1,7 +1,7 @@
 body {
     text-align: center;
     font-family: 'Happy Monkey', cursive;
-    background: #a2d2ff;
+    background: linear-gradient(#a2d2ff, #EFB0C9);
     color: #ffffff;
 }
 
@@ -10,7 +10,7 @@ h1, h2, h3, h4, p {
 }
 
 #bff-img {
-    width: 150px;
+    width: 250px;
     border-radius: 50%;
     border: 6px solid #EFB0C9;
     margin-bottom: 10px;
@@ -63,33 +63,35 @@ h1, h2, h3, h4, p {
 }
 
 #gift-img-happy:hover {
-    background-image: url("images/happy.gif");
+    background-image: url("images/albon1.gif");
 }
 
 #gift-img-hot:hover {
-    background-image: url("images/hot.gif");
+    background-image: url("images/albon2.gif");
 }
 
 #gift-img-genius:hover {
-    background-image: url("images/genius.gif");
+    background-image: url("images/albon3.gif");
 }
 
 #gift-img-badass:hover {
-    background-image: url("images/badass.gif");
+    background-image: url("images/albon3.gif");
 }
 
 #gift-img-cheers:hover {
-    background-image: url("images/cheers.gif");
+    background-image: url("images/albon3.gif");
 }
 
-.footer {
-    margin: 40px 0 10px 0;
+#footer {
     font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
 }
 
-#link-to-scrimba {
-    color: #ffffff;
+a {
+    color: white;
 }
+
 /* 
 Add the footer paragraph according to the design. 
 Configure the anchor tag to open the link in a new tab.
